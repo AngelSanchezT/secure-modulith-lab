@@ -32,7 +32,7 @@ The main purpose of this lab is to solve common technical challenges in distribu
 
 ### Backend (The Modulith)
 
-- Java 21: Base language.
+- Java 25: Base language.
 
 - Spring Boot 3.5.x: Main framework.
 
