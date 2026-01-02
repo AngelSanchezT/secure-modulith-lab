@@ -1,16 +1,19 @@
-# Compiled class file
-*.class
+# IDEs
+.idea/
+.vscode/
+*.swp
 
-# Log file
+# Logs & OS
 *.log
+.DS_Store
+Thumbs.db
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Java / Maven / Spring Boot (Backend)
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/mvnw
+backend/mvnw.cmd
+*.class
 *.jar
 *.war
 *.nar
@@ -19,6 +22,9 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Node / Angular (Frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+# Opcional: depende de tu flujo de trabajo
+# frontend/package-lock.json
